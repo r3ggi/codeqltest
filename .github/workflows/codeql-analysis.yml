@@ -58,8 +58,7 @@ jobs:
     #    and modify them (or add more) to build your code if your project
     #    uses a compiled language
 
-    - run: |
-    gcc buffer_overflow.c
+    - run: gcc buffer_overflow.c
 
 
     - name: Perform CodeQL Analysis
